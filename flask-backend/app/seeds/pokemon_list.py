@@ -6,10 +6,7 @@ pokemon_list = [
         'attack': 49,
         'defense': 49,
         'type': 'grass',
-        'moves': """
-            tackle,
-            vine whip
-            """,
+        'moves': "tackle,vine,whip",
         'captured': True
     },
     {
@@ -19,11 +16,7 @@ pokemon_list = [
         'attack': 62,
         'defense': 63,
         'type': 'grass',
-        'moves': """
-            tackle,
-            vine whip,
-            razor leaf
-            """
+        'moves': "tackle,vine whip,razor leaf"
         'captured': True
     },
     {
@@ -33,11 +26,11 @@ pokemon_list = [
         'attack': 82,
         'defense': 83,
         'type': 'grass',
-        'moves': [
-            'tackle',
-            'vine whip',
-            'razor leaf'
-        ],
+        'moves': "
+            tackle,
+            vine whip,
+            razor leaf
+            ",
         'captured': True
     },
     {
@@ -47,11 +40,11 @@ pokemon_list = [
         'attack': 52,
         'defense': 43,
         'type': 'fire',
-        'moves': [
-            'scratch',
-            'ember',
-            'metal claw'
-        ],
+        'moves': "
+            scratch,
+            ember,
+            metal claw
+            ",
         'captured': True
     },
     {
@@ -61,12 +54,12 @@ pokemon_list = [
         'attack': 64,
         'defense': 58,
         'type': 'fire',
-        'moves': [
-            'scratch',
-            'ember',
-            'metal claw',
-            'flamethrower'
-        ],
+        'moves': "
+            scratch,
+            ember,
+            metal claw,
+            flamethrower
+            ",
         'captured': True
     },
     {
@@ -76,12 +69,12 @@ pokemon_list = [
         'attack': 84,
         'defense': 78,
         'type': 'fire',
-        'moves': [
-            'flamethrower',
-            'wing attack',
-            'slash',
-            'metal claw'
-        ],
+        'moves': "
+            flamethrower,
+            wing attack,
+            slash,
+            metal claw
+            ",
         'captured': True
     },
     {
@@ -91,11 +84,11 @@ pokemon_list = [
         'attack': 48,
         'defense': 65,
         'type': 'water',
-        'moves': [
-            'tackle',
-            'bubble',
-            'water gun'
-        ],
+        'moves': "
+            tackle,
+            bubble,
+            water gun
+            ",
         'captured': True
     },
     {
@@ -105,11 +98,11 @@ pokemon_list = [
         'attack': 63,
         'defense': 80,
         'type': 'water',
-        'moves': [
-            'tackle',
-            'bubble',
-            'water gun',
-            'bite'
-        ],
+        'moves': "
+            tackle,
+            bubble,
+            water gun,
+            bite
+            ",
     },
 ]
