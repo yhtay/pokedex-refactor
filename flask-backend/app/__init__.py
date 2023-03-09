@@ -2,7 +2,7 @@
 # import statement for CSRF
 from flask import Flask, render_template, redirect
 from flask_wtf.csrf import CSRFProtect, generate_csrf
-from .models import db
+from .models.db import db
 from .config import Config
 from flask_migrate import Migrate
 

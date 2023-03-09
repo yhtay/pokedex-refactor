@@ -1,5 +1,5 @@
 from .db import db
-
+from datetime import datetime
 
 class Pokemon(db.Model):
 
@@ -16,4 +16,4 @@ class Pokemon(db.Model):
     encouterRate =  db.Column(db.Float(3, 2), nullable=False, default=1.00)
     catchRate = db.Column(db.Float(3, 2), nullable=False, default=1.00)
     captured = db.Column(db.Boolean, default=False)
-
+    date = db.Column(db.Date, default=datetime.utcnow)
