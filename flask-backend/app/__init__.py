@@ -5,6 +5,7 @@ from flask_wtf.csrf import CSRFProtect, generate_csrf
 from .models.db import db
 from .config import Config
 from flask_migrate import Migrate
+from .seeds import seed_commands
 
 
 
@@ -13,6 +14,9 @@ app.config.from_object(Config)
 
 db.init_app(app)
 Migrate(app, db)
+
+# Need to add the seed commands to our app
+app.cli.add_command(seed_commands)
 # after request code for CSRF token injection
 
 @app.after_request
