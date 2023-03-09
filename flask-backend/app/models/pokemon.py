@@ -2,7 +2,6 @@ from .db import db
 from datetime import datetime
 
 class Pokemon(db.Model):
-
     __tablename__ = "pokemon"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False)
